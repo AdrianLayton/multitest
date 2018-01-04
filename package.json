@@ -1,0 +1,31 @@
+{
+  "name": "testmailchimp",
+  "version": "1.0.0",
+  "description": "Testing mail chimp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianLayton/testMailChimp.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdrianLayton/testMailChimp/issues"
+  },
+  "homepage": "https://github.com/AdrianLayton/testMailChimp#readme",
+  "dependencies": {
+    "aws-sdk": "^2.176.0",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "dynamodb-session-store": "0.0.2",
+    "express": "^4.16.2",
+    "superagent": "^3.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.7"
+  }
+}
